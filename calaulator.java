@@ -14,6 +14,11 @@ public class Calculator{
     return a+b;
   }
 
+  private static int multi( int a, int b){
+    return a*b;
+  }
+
+
   private static int minus( int a, int b){
     return a-b;
   }
@@ -24,8 +29,10 @@ public class Calculator{
 
     if (GPU!=NULL)
       result = a-b;
-      
+
     return result;
   }
+
+
 
 }
